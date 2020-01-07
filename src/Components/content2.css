@@ -1,0 +1,53 @@
+.content p{
+    font-size:16px;
+    margin-right:65px;
+}
+.content h2 a{
+    color:black;
+    font-style:italic;
+    opacity: 0.5;
+}
+.content h2 a:hover{
+    opacity: 1;
+}
+.load-more button a {
+    color: #626262;
+    text-decoration: none;
+}
+.load-more {
+    margin: 33px 0 135px;
+}
+.button {
+    text-align: center;
+    transition: all 0.5s;
+    width: 165px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.button a {
+    color: #626262;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+@media screen and (max-width:1200px){
+    .content p{
+        margin-right:0;
+    }
+}
+@media screen and (max-width:992px){
+    .content .row{
+        margin-top:20px;
+    }
+    .content p{
+        margin-right:0px;
+    }
+}
+@media screen and (max-width:576px){
+    .content {
+        padding: auto 10px;
+    }
+}

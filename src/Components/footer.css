@@ -1,0 +1,33 @@
+.footer {
+    background-color: #D7D7D7;
+    margin-top:-100px;
+    padding-top: 20px;
+}
+.footer a{
+    color:black;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:gray;
+}
+@media screen and (max-width:992px){
+    .footer .row{
+        margin-top:20px;
+    }
+    .footer p.copyright{
+        margin-top:22px;
+    }
+}
+@media screen and (max-width:768px){
+    .footer .row{
+        margin-top:20px;
+    }
+    .footer p.copyright{
+        margin-top:20px;
+    }
+}
+@media screen and (max-width:576px){
+    .footer .row{
+        margin-top:10px;
+    }
+}
