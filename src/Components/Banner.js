@@ -8,7 +8,8 @@ class Banner extends React.Component {
         <img
           src="../images/banner.png"
           title="girls on the hill"
-          className="img-fluid" alt=""
+          className="img-fluid"
+          alt=""
         />
       </section>
     );
